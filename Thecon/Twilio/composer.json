@@ -1,0 +1,23 @@
+{
+    "name": "thecon/module-twilio",
+    "description": "Twillio module for SMS Notifications",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Thecon",
+            "email": "suport@thecon.ro",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Thecon\\Twilio\\": ""
+        }
+    }
+}
