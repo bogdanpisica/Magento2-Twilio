@@ -9,9 +9,9 @@ use Magento\Sales\Api\OrderAddressRepositoryInterface;
 
 class SalesOrderAfterSave implements ObserverInterface
 {
-    const TWILIO_SID = 'AC06511d08844c0d43292ee81e5ea53776';
-    const TWILIO_TOKEN = '2d7653d2c4f7c2d969b255ef81bfb6ea';
-    const TWILIO_NUMBER = '+18125778788';
+    const TWILIO_SID = 'ID';
+    const TWILIO_TOKEN = 'TOKEN';
+    const TWILIO_NUMBER = 'NUMBER';
 
     private $clientFactory;
     private $logger;
